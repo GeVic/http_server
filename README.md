@@ -4,7 +4,7 @@ A minimal HTTP/1.1 server built from scratch using TCP sockets. This project imp
 
 ## Features
 
-- Listens on localhost:4221
+- Listens at localhost:4221
 - Connection handling: respects `Connection: close`, otherwise keeps the connection open for the request
 - Endpoints:
   - GET `/` → 200 OK, empty body
